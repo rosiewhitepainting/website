@@ -1,2 +1,4 @@
-// intance via constructor and selector
-var lightbox = new SimpleLightbox({elements: '.gallery a'});
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
