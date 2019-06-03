@@ -24,11 +24,16 @@ img {
     padding-bottom: 30px!important;
 }
 
+.gallery-padding {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+}
+
 #navbarNav {
     padding-left: 1.5rem;
 }
 
-#gallery-padding {
-    padding-left: 1.7rem;
-    padding-right: 1.7rem;
+.modal-footer {
+    justify-content: center;
 }
+
