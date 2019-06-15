@@ -1,8 +1,13 @@
+html {
+    height: 100%;
+}
+
 body {
     background: #fff9fc;
     font-family: 'Arapey', serif;
     color: #2c2c2c;
     padding-top: 2%;
+    height: 100%;
 }
 
 .navbar-brand {
@@ -11,6 +16,10 @@ body {
 
 .nav-item {
     font-size: 1.5rem;
+}
+
+#page-content {
+    flex: 1 0 auto;
 }
 
 img {
@@ -25,9 +34,8 @@ img {
     padding-bottom: 30px!important;
 }
 
-
-#footer-spacing {
-    margin-top: auto;
+#sticky-footer {
+    flex-shrink: none;
 }
 
 #navbarNav {
