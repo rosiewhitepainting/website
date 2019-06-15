@@ -175,7 +175,7 @@
     <!-- Footer -->
     <footer class="page-footer font-small">
         <!-- Footer Elements -->
-        <div class="container"> 
+        <div class="container" id="footer-spacing"> 
             <div class="col"> 
                 <div class="row justify-content-center">
                     <!--Instagram-->
@@ -198,16 +198,17 @@
  
     <!-- baguettebox init script -->
     <script>
-            baguetteBox.run('.gallery', {
-                animation: 'fadeIn',
-                captions: function(element) {
-                    var title = "<i>" + element.getAttribute('data-caption') + "</i>";
-                    var caption = title + " - " + element.getAttribute('data-footer');
-                    return caption;
-                },
-                buttons : 'auto',
-                titleTag : true
-            });
-        </script>
+        baguetteBox.run('.gallery', {
+            animation: 'fadeIn',
+            captions: function(element) {
+                var title = "<i>" + element.getAttribute('data-caption') + "</i>";
+                var description = "<br><small>" + element.getAttribute('data-footer') + "</small>";
+                var caption = title + description;
+                return caption;
+            },
+            buttons : 'auto',
+            titleTag : true
+        });
+    </script>
 </body>
 </html>

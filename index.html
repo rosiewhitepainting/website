@@ -29,9 +29,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js" async></script>
 
-    <!-- Lazysizes responsive images -->
-    <script src="lazysizes.min.js" async=""></script>
-
     <title>Rosie White Painting</title>
 </head>
 <body>
@@ -85,8 +82,8 @@
             </div>
             <div class="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 p-1 p-sm-1 p-md-2 p-lg-2 p-xl-2">
                 <a href="images/painting/3. May Passion Fruit.jpg"
-                    data-caption="May Passion Fruit"
-                    data-footer="Watercolor, color pencil on paper; 15 x 19.5 cm; Sold">
+                    data-caption="May Passion Fruit "
+                    data-footer="Watercolor, color pencil on paper; 15 x 19.5 cm; Sold ">
                     <img src="images/painting/thumbnails/small/tn_3. May Passion Fruit.jpg"
                         class="img-fluid"
                         alt="May Passion Fruit">
@@ -113,7 +110,7 @@
             <div class="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 p-1 p-sm-1 p-md-2 p-lg-2 p-xl-2">
                 <a href="images/painting/6. Swans.jpg"
                     data-caption="Swans"
-                    data-footer="Watercolor, acrylic, color pencil on paper; 29 x 42 cm; Sold">
+                    data-footer="Watercolor, acrylic, color pencil on paper; 29 x 42 cm; Sold ">
                     <img src="images/painting/thumbnails/small/tn_6. Swans.jpg"
                         class="img-fluid"
                         alt="Swans">
@@ -122,7 +119,7 @@
             <div class="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 p-1 p-sm-1 p-md-2 p-lg-2 p-xl-2">
                 <a href="images/painting/7. Scottish Strawberries.jpg"
                     data-caption="Scottish Strawberries"
-                    data-footer="Oil pastel on wood panel; 15 x 15 cm; Sold">
+                    data-footer="Oil pastel on wood panel; 15 x 15 cm; Sold ">
                     <img src="images/painting/thumbnails/small/tn_7. Scottish Strawberries.jpg"
                         class="img-fluid"
                         alt="Scottish Strawberries">
@@ -167,7 +164,7 @@
             <div class="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 p-1 p-sm-1 p-md-2 p-lg-2 p-xl-2">
                 <a href="images/painting/12. March Passion Fruit.jpg"
                     data-caption="March Passion Fruit"
-                    data-footer="Watercolor, color pencil on paper; 27.5 x 31 cm; $45">
+                    data-footer="Watercolor, color pencil on paper; 27.5 x 31 cm ; $45">
                     <img src="images/painting/thumbnails/small/tn_12. March Passion Fruit.jpg"
                         class="img-fluid"
                         alt="March Passion Fruit">
@@ -238,7 +235,7 @@
     <!-- Footer -->
     <footer class="page-footer font-small">
         <!-- Footer Elements -->
-        <div class="container"> 
+        <div class="container" id="footer-spacing"> 
             <div class="col"> 
                 <div class="row justify-content-center">
                     <!--Instagram-->
@@ -265,7 +262,8 @@
             animation: 'fadeIn',
             captions: function(element) {
                 var title = "<i>" + element.getAttribute('data-caption') + "</i>";
-                var caption = title + " - " + element.getAttribute('data-footer');
+                var description = "<br><small>" + element.getAttribute('data-footer') + "</small>";
+                var caption = title + description;
                 return caption;
             },
             buttons : 'auto',

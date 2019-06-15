@@ -1,6 +1,7 @@
 body {
     background: #fff9fc;
     font-family: 'Arapey', serif;
+    color: #2c2c2c;
     padding-top: 2%;
 }
 
@@ -24,17 +25,42 @@ img {
     padding-bottom: 30px!important;
 }
 
-.gallery-padding {
-    /* padding-left: 2rem;
-    padding-right: 2rem; */
+
+#footer-spacing {
+    margin-top: auto;
 }
 
 #navbarNav {
     padding-left: 1.5rem;
 }
 
-.ekko-lightbox .modal-footer {
-    justify-content: center;
-    text-align: center;
+.navbar-light .navbar-brand {
+    color: #2c2c2c;
+}
+
+#baguetteBox-overlay {
+    background-color:rgba(255,249,252,.9)!important;
+}
+
+#baguetteBox-overlay .full-image img {
+    max-width: 98%!important;
+    max-height: 85%!important;
+    box-shadow: none!important;
+}
+
+#baguetteBox-overlay .full-image figcaption {
+    bottom: auto!important;
+    background-color: rgba(255,249,252,0)!important;
+    font-family: 'Arapey', serif!important;
+    color: #2c2c2c!important;
+    line-height: 1.4!important;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+#baguetteBox-overlay .full-image figcaption br {
+    line-height: 20%!important;
 }
 
