@@ -51,15 +51,18 @@ img {
 }
 
 #baguetteBox-overlay .full-image img {
-    max-width: 98%!important;
-    max-height: 85%!important;
+    max-width: 95%!important;
+    max-height: 80%!important;
     box-shadow: none!important;
+    margin-top: -10%;
 }
 
 #baguetteBox-overlay .full-image figcaption {
     bottom: auto!important;
     background-color: rgba(255,249,252,0)!important;
     font-family: 'Arapey', serif!important;
+    font-size: 1.1rem;
+    font-weight: bold;
     color: #2c2c2c!important;
     line-height: 1.4!important;
     padding-left: 1.5rem;
