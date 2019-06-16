@@ -34,6 +34,11 @@ img {
     padding-bottom: 30px!important;
 }
 
+.px-4 {
+    padding-left: 1.7rem!important;
+    padding-right: 1.7rem!important;
+}
+
 #sticky-footer {
     flex-shrink: none;
 }
