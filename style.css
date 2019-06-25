@@ -254,7 +254,7 @@ img {
 
 @media screen and (min-width: 1440px) {
     body { 
-        padding-top: 10%; 
+        padding-top: 180px; 
     }
     .navbar-brand {
         font-size: 2.6rem;
