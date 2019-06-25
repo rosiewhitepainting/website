@@ -230,17 +230,17 @@ img {
     }
 }
 
-@media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) and (max-width: 1439px){ 
     body { 
-        padding-top: 150px; 
+        padding-top: 125px; 
     }
     .navbar-brand {
         font-size: 2.6rem;
         padding-top: 4px;
-        margin-left: -20px;
+        margin-left: -5px;
     }
     .navbar {
-        padding-top: 6%;
+        padding-top: 3%;
         background: linear-gradient(to bottom, rgb(255,249,252,0.95) 98%, rgb(255,249,252,0) 100%);
     }
     .nav-item {
@@ -251,6 +251,29 @@ img {
         margin-top: 8px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    body { 
+        padding-top: 10%; 
+    }
+    .navbar-brand {
+        font-size: 2.6rem;
+        padding-top: 4px;
+        margin-left: -20px;
+    }
+    .navbar {
+        padding-top: 4%;
+        background: linear-gradient(to bottom, rgb(255,249,252,0.95) 98%, rgb(255,249,252,0) 100%);
+    }
+    .nav-item {
+        font-size: 1.3rem;
+    }
+    #navbarNav {
+        margin-right: -2%;
+        margin-top: 8px;
+    }
+}
+
 
 @media screen and (min-width: 800px) {
     .nav-item {
@@ -263,4 +286,5 @@ img {
         font-size: 1.5rem;
     }
 }
+
 
