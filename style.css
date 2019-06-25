@@ -51,7 +51,7 @@ img {
 }
 
 #navbarNav {
-    padding-left: 1.5rem;
+    padding-left: 1.1rem;
 }
 
 .navbar-light .navbar-brand {
@@ -133,12 +133,134 @@ img {
     }
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 424px) { 
     body { 
-        padding-top: 70px; 
+        padding-top: 75px; 
     }
     .navbar-brand {
-        font-size: 2rem;
+        font-size: 1.9rem;
+        padding-top: 8px;
+    }
+    .navbar {
+        padding-top: 3%;
+        background: linear-gradient(to bottom, rgb(255,249,252,0.95) 99%, rgb(255,249,252,0) 100%);
+    }
+    .nav-item {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) { 
+    body { 
+        padding-top: 100px; 
+    }
+    .navbar-brand {
+        font-size: 2.3rem;
+        padding-top: 4px;
+        margin-left: -20px;
+    }
+    .navbar {
+        padding-top: 5%;
+        background: linear-gradient(to bottom, rgb(255,249,252,0.95) 99%, rgb(255,249,252,0) 100%);
+    }
+    #navbarNav {
+        margin-top: -5px;
+    }
+    .nav-item {
+        font-size: 1.4rem;
+    }
+    .container {
+        padding-left: 10%!important;
+        padding-right: 10%!important;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+    body { 
+        padding-top: 120px; 
+    }
+    .navbar-brand {
+        font-size: 2.5rem;
+        padding-top: 4px;
+        margin-left: -25px;
+    }
+    .navbar {
+        padding-top: 6%;
+        background: linear-gradient(to bottom, rgb(255,249,252,0.95) 98%, rgb(255,249,252,0) 100%);
+    }
+    .nav-item {
+        font-size: 1.3rem;
+    }
+    #navbarNav {
+        margin-right: -5%;
+        margin-top: 8px;
+    }
+    .container {
+        padding-left: 10%!important;
+        padding-right: 10%!important;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) { 
+    body { 
+        padding-top: 140px; 
+    }
+    .navbar-brand {
+        font-size: 2.6rem;
+        padding-top: 4px;
+        margin-left: -20px;
+    }
+    .navbar {
+        padding-top: 6%;
+        background: linear-gradient(to bottom, rgb(255,249,252,0.95) 98%, rgb(255,249,252,0) 100%);
+    }
+    .nav-item {
+        font-size: 1.3rem;
+    }
+    #navbarNav {
+        margin-right: -5%;
+        margin-top: 8px;
+    }
+    .container {
+        padding-left: 10%!important;
+        padding-right: 10%!important;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    body { 
+        padding-top: 150px; 
+    }
+    .navbar-brand {
+        font-size: 2.6rem;
+        padding-top: 4px;
+        margin-left: -20px;
+    }
+    .navbar {
+        padding-top: 6%;
+        background: linear-gradient(to bottom, rgb(255,249,252,0.95) 98%, rgb(255,249,252,0) 100%);
+    }
+    .nav-item {
+        font-size: 1.3rem;
+    }
+    #navbarNav {
+        margin-right: -2%;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .nav-item {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 852px) {
+    .nav-item {
+        font-size: 1.5rem;
     }
 }
 
