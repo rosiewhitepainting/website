@@ -5,8 +5,8 @@ html {
 body {
     background: rgb(255,249,252);
     font-family: 'Arapey', serif;
+    font-size: 1.2rem;
     color: #313131;
-    padding-top: 90px;
     height: 100%;
 }
 
@@ -134,156 +134,175 @@ img {
 }
 
 @media screen and (max-width: 424px) { 
-    body { 
-        padding-top: 75px; 
+    body {
+        padding-top: 1rem;
     }
     .navbar-brand {
-        font-size: 1.9rem;
-        padding-top: 8px;
-    }
-    .navbar {
-        padding-top: 3%;
-        background: linear-gradient(to bottom, rgb(255,249,252,0.95) 99%, rgb(255,249,252,0) 100%);
+        font-size: 2rem;
+        /* color: red!important; */
     }
     .nav-item {
         font-size: 1.5rem;
     }
+    .navbar {
+        padding-left: 8%!important;
+        padding-right: 8%!important;
+    }
 }
 
-@media screen and (min-width: 425px) and (max-width: 767px) { 
-    body { 
-        padding-top: 105px; 
+@media screen and (min-width: 425px) { 
+    body {
+        padding-top: 1.2rem;
     }
     .navbar-brand {
         font-size: 2.3rem;
-        padding-top: 4px;
-        margin-left: -20px;
-    }
-    .navbar {
-        padding-top: 5%;
-        background: linear-gradient(to bottom, rgb(255,249,252,0.95) 99%, rgb(255,249,252,0) 100%);
-    }
-    #navbarNav {
-        margin-top: -5px;
+        /* color: orange!important; */
     }
     .nav-item {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
-    .container {
-        padding-left: 10%!important;
-        padding-right: 10%!important;
+    .navbar {
+        padding-left: 6%!important;
+        padding-right: 6%!important;
+    }
+    #page-content {
+        padding-left: 3%!important;
+        padding-right: 3%!important;
         max-width: 100%;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) { 
-    body { 
-        padding-top: 125px; 
+@media screen and (min-width: 576px) { 
+    body {
+        padding-top: 1.4rem;
     }
     .navbar-brand {
         font-size: 2.5rem;
+        /* color: yellow!important; */
+    }
+    .nav-item {
+        font-size: 1.8rem;
+    }
+    .navbar {
+        padding-left: 3%!important;
+        padding-right: 3%!important;
+    }
+    .container {
+        padding-left: 5%!important;
+        padding-right: 5%!important;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    body {
+        padding-top: 1.6rem;
+    }
+    .navbar-brand {
+        font-size: 2.4rem;
         padding-top: 4px;
         margin-left: -25px;
-    }
-    .navbar {
-        padding-top: 5%;
-        background: linear-gradient(to bottom, rgb(255,249,252,0.95) 98%, rgb(255,249,252,0) 100%);
+        /* color: green!important; */
     }
     .nav-item {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     #navbarNav {
-        margin-right: -5%;
-        margin-top: 8px;
+        margin-right: -3%;
+        margin-top: 0.5rem;
+    }
+    .navbar {
+        padding-left: 4%!important;
+        padding-right: 3%!important;
     }
     .container {
-        padding-left: 10%!important;
-        padding-right: 10%!important;
+        padding-left: 6%!important;
+        padding-right: 6%!important;
         max-width: 100%;
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) { 
-    body { 
-        padding-top: 140px; 
+@media screen and (min-width: 992px) { 
+    body {
+        padding-top: 1.6rem;
     }
     .navbar-brand {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
         padding-top: 4px;
-        margin-left: -20px;
-    }
-    .navbar {
-        padding-top: 5%;
-        background: linear-gradient(to bottom, rgb(255,249,252,0.95) 98%, rgb(255,249,252,0) 100%);
+        margin-left: -25px;
+        /* color: blue!important; */
     }
     .nav-item {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     #navbarNav {
-        margin-right: -5%;
-        margin-top: 8px;
+        margin-right: -3%;
+        margin-top: 0.5rem;
+    }
+    .navbar {
+        padding-left: 4%!important;
+        padding-right: 4%!important;
     }
     .container {
-        padding-left: 10%!important;
-        padding-right: 10%!important;
+        padding-left: 6%!important;
+        padding-right: 6%!important;
         max-width: 100%;
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1439px){ 
-    body { 
-        padding-top: 125px; 
+@media screen and (min-width: 1200px) { 
+    body {
+        padding-top: 1.6rem;
     }
     .navbar-brand {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
         padding-top: 4px;
-        margin-left: -5px;
-    }
-    .navbar {
-        padding-top: 3%;
-        background: linear-gradient(to bottom, rgb(255,249,252,0.95) 98%, rgb(255,249,252,0) 100%);
+        margin-left: -25px;
+        /* color: indigo!important; */
     }
     .nav-item {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     #navbarNav {
-        margin-right: -2%;
-        margin-top: 8px;
+        margin-right: -3%;
+        margin-top: 0.5rem;
+    }
+    .navbar {
+        padding-left: 4%!important;
+        padding-right: 4%!important;
+    }
+    .container {
+        padding-left: 6%!important;
+        padding-right: 6%!important;
+        max-width: 100%;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    body { 
-        padding-top: 180px; 
+    body {
+        padding-top: 1.6rem;
     }
     .navbar-brand {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
         padding-top: 4px;
-        margin-left: -20px;
+        margin-left: -25px;
+        /* color: violet!important; */
     }
-    .navbar {
-        padding-top: 4%;
-        background: linear-gradient(to bottom, rgb(255,249,252,0.95) 98%, rgb(255,249,252,0) 100%);
-    }
-    .nav-item {
-        font-size: 1.3rem;
-    }
-    #navbarNav {
-        margin-right: -2%;
-        margin-top: 8px;
-    }
-}
-
-
-@media screen and (min-width: 800px) {
-    .nav-item {
-        font-size: 1.4rem;
-    }
-}
-
-@media screen and (min-width: 852px) {
     .nav-item {
         font-size: 1.5rem;
+    }
+    #navbarNav {
+        margin-right: -3%;
+        margin-top: 0.5rem;
+    }
+    .navbar {
+        padding-left: 4%!important;
+        padding-right: 4%!important;
+    }
+    .container {
+        padding-left: 6%!important;
+        padding-right: 6%!important;
+        max-width: 100%;
     }
 }
 
