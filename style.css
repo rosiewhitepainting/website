@@ -167,7 +167,6 @@ img {
     #page-content {
         padding-left: 3%!important;
         padding-right: 3%!important;
-        max-width: 100%;
     }
 }
 
@@ -187,9 +186,8 @@ img {
         padding-right: 3%!important;
     }
     .container {
-        padding-left: 5%!important;
-        padding-right: 5%!important;
-        max-width: 100%;
+        padding-left: 0%!important;
+        padding-right: 0%!important;
     }
 }
 
@@ -217,7 +215,6 @@ img {
     .container {
         padding-left: 6%!important;
         padding-right: 6%!important;
-        max-width: 100%;
     }
 }
 
@@ -245,7 +242,6 @@ img {
     .container {
         padding-left: 6%!important;
         padding-right: 6%!important;
-        max-width: 100%;
     }
 }
 
@@ -271,9 +267,8 @@ img {
         padding-right: 4%!important;
     }
     .container {
-        padding-left: 6%!important;
-        padding-right: 6%!important;
-        max-width: 100%;
+        padding-left: 10%!important;
+        padding-right: 10%!important;
     }
 }
 
@@ -299,9 +294,8 @@ img {
         padding-right: 4%!important;
     }
     .container {
-        padding-left: 6%!important;
-        padding-right: 6%!important;
-        max-width: 100%;
+        padding-left: 10%!important;
+        padding-right: 10%!important;
     }
 }
 
