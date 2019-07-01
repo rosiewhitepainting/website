@@ -94,10 +94,10 @@ img {
 }
 
 .fadeIn {
-    animation: fadein 1.6s;
-    -moz-animation: fadein 1.6s; /* Firefox */
-    -webkit-animation: fadein 1.6s; /* Safari and Chrome */
-    -o-animation: fadein 1.6s; /* Opera */
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
 }
 @keyframes fadein {
     from {
