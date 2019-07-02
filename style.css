@@ -10,10 +10,6 @@ body {
     height: 100%;
 }
 
-nav {
-    position: relative;
-}
-
 .navbar {
     background: rgb(255,249,252);
 }
@@ -27,10 +23,10 @@ nav {
     font-size: 1.5rem;
 }
 
-#page-content {
+/* #page-content {
     position: relative;
     flex: 1 0 auto;
-}
+} */
 
 img {
     width: 100%;
