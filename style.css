@@ -281,3 +281,27 @@ img {
         padding-right: 4%!important;
     }
 }
+
+/* xs */
+#img-central {
+    width: 40%;
+    height: auto;
+}
+/* sm */
+@media (min-width: 768px) {
+#img-central {
+        width: 200px;
+    }
+}
+/* md */
+@media (min-width: 992px) {
+#img-central {
+        width: 250px;
+    }
+}
+/* lg */
+@media (min-width: 1200px) {
+#img-central {
+        width: 300px;
+    }
+}
